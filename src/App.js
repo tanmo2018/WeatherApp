@@ -3,26 +3,36 @@ import styled from "styled-components";
 import Axios from "axios";
 import CityComponent from "./modules/CityComponent";
 import WeatherComponent from "./modules/WeatherInfoComponent";
-
+import img1 from "./icons/sunny.svg";
+import img2 from "./icons/night.svg";
+import img3 from "./icons/day.svg";
+import img4 from "./icons/cloudy-night.svg";
+import img5 from "./icons/cloudy.svg";
+import img6 from "./icons/perfect-day.svg";
+import img7 from "./icons/rain.svg";
+import img8 from "./icons/rain-night.svg";
+import img9 from "./icons/storm.svg";
+import img10 from "./icons/snowflake.svg";
+import img11 from "./icons/mist.svg";
 export const WeatherIcons = {
-  "01d": "../icons/sunny.svg",
-  "01n": "../icons/night.svg",
-  "02d": "../icons/day.svg",
-  "02n": "../icons/cloudy-night.svg",
-  "03d": "../icons/cloudy.svg",
-  "03n": "../icons/cloudy.svg",
-  "04d": "../icons/perfect-day.svg",
-  "04n": "../icons/cloudy-night.svg",
-  "09d": "../icons/rain.svg",
-  "09n": "../icons/rain-night.svg",
-  "10d": "../icons/rain.svg",
-  "10n": "../icons/rain-night.svg",
-  "11d": "../icons/storm.svg",
-  "11n": "../icons/storm.svg",
-  "13d": "../icons/snowflake.svg",
-  "13n": "../icons/snowflake.svg",
-  "50d": "../icons/mist.svg",
-  "50n": "../icons/mist.svg",
+  "01d": img1,
+  "01n": img2,
+  "02d": img3,
+  "02n": img4,
+  "03d": img5,
+  "03n": img5,
+  "04d": img6,
+  "04n": img4,
+  "09d": img7,
+  "09n": img8,
+  "10d": img7,
+  "10n": img8,
+  "11d": img9,
+  "11n": img9,
+  "13d": img10,
+  "13n": img10,
+  "50d": img11,
+  "50n": img11,
 };
 
 const Container = styled.div`
